@@ -1,3 +1,3 @@
 # 目录
 
-* [目录](index.md)
+* [开篇](fristpro.md)
