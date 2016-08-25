@@ -1,0 +1,12 @@
+{
+    "plugins": [
+        "tbfed-pagefooter"
+    ],
+    "pluginsConfig": {
+        "tbfed-pagefooter": {
+            "copyright": "Copyright &copy linxihua.com 2016  <a href='http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35010202000334'><img src='/ba.png'/>闽公网安备 35010202000334号</a>",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        }
+    }
+}
