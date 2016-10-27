@@ -6,4 +6,6 @@
     * [时间帮助类](CSharp/TimeHelper.md)
     * [Dapper](CSharp/Dapper.md)
 * Python
-    * [构建与发布](Python/p_1.md)    
+    * [构建与发布](Python/p_1.md)
+* GraphQL
+    * [资料](GraphQL/g_1.md)       
