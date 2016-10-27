@@ -6,6 +6,7 @@
 * CSharp
     * [时间帮助类](CSharp/TimeHelper.md)
     * [Dapper](CSharp/Dapper.md)
-
+* Python
+    * [构建与发布](Python/p_1.md)
 
 
