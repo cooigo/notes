@@ -1,0 +1,10 @@
+{
+    "plugins": [
+        "tbfed-pagefooter"
+    ],
+    "pluginsConfig": {
+        "tbfed-pagefooter": {
+            "copyright": "email:zouhuaw3c@qq.com"
+        }
+    }
+}
