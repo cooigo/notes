@@ -22,7 +22,7 @@ protected getButtons() {
 
 
 //xxEndpoint.cs
-public FileContentResult ListExcelUsersOffer(IDbConnection connection, ListRequest request)
+public FileContentResult ListExcel(IDbConnection connection, ListRequest request)
         {
             var uot = connection.Query(@"
 select * from xxTable
