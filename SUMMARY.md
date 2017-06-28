@@ -1,5 +1,6 @@
 # 程序笔记
 
+* [常用开发站点](dev-helper.md)
 * [目录](README.md)
 * Serenity
     * [Grid常用方法](Serenity/Grid.md)
