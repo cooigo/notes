@@ -70,7 +70,7 @@ You should now have a node_modules folder with a @types folder inside, under cur
 
 If you are using git, make sure you add node_modules/ to .gitignore file.
 Open package manager console and uninstall following packages:
-
+```
 Uninstall-Package toastr.TypeScript.DefinitelyTyped
 Uninstall-Package sortablejs.TypeScript.DefinitelyTyped
 Uninstall-Package jspdf.TypeScript.DefinitelyTyped
@@ -79,6 +79,7 @@ Uninstall-Package jquery.cookie.TypeScript.DefinitelyTyped
 Uninstall-Package jqueryui.TypeScript.DefinitelyTyped
 Uninstall-Package jquery.validation.TypeScript.DefinitelyTyped
 Uninstall-Package jquery.TypeScript.DefinitelyTyped
+```
 Now your project should build without any errors.
 
 Next step will be to move jQuery, jQuery-UI etc scripts to NPM but it is for another version.
