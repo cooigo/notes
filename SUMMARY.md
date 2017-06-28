@@ -5,6 +5,7 @@
     * [Grid常用方法](Serenity/Grid.md)
     * [自定义下拉选项数据(LookupScript)](Serenity/LookupScript.md)
     * [自定义导出Excel](Serenity/custom-export-excel.md)
+    * [2.8升级引导](Serenity/serenity-2.8.0-upgrade.md)
 * CSharp
     * [时间帮助类](CSharp/TimeHelper.md)
     * [Dapper](CSharp/Dapper.md)
