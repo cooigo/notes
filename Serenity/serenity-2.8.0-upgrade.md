@@ -28,7 +28,7 @@ To resolve these, we have to install them with NPM.
 First create a package.json file under YourApplication.Web project (where tsconfig.json and web.config resides).
 
 Here is a sample one:
-
+```
 {
   "name": "serene.web",
   "version": "1.0.0",
@@ -50,6 +50,7 @@ Here is a sample one:
   "author": "",
   "license": "ISC"
 }
+```
 Replace serene.web with your app name.
 
 Open a command prompt in the folder Serene.Web.csproj (YourProject.Web.csproj) exists.
