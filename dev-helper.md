@@ -8,3 +8,6 @@
 * Bootstrap <http://www.bootcss.com/>
 * RxJS <http://reactivex.io/rxjs/manual/tutorial.html>
 * Angular4 <https://angular.io/>
+* MSBuild 参考 <https://msdn.microsoft.com/zh-cn/library/0k6kkbsd(v=vs.90).aspx>
+* HTTP AJAX <https://github.com/mzabriskie/axios>
+* awesome-react <https://github.com/enaqx/awesome-react>
