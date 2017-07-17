@@ -11,3 +11,4 @@
 * MSBuild 参考 <https://msdn.microsoft.com/zh-cn/library/0k6kkbsd(v=vs.90).aspx>
 * HTTP AJAX <https://github.com/mzabriskie/axios>
 * awesome-react <https://github.com/enaqx/awesome-react>
+* Infinite Scroll V3.0 <https://infinite-scroll.com/ >
