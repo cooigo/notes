@@ -63,3 +63,13 @@
 * MVC Bundling and Minification
 
     <https://docs.microsoft.com/zh-cn/aspnet/mvc/overview/performance/bundling-and-minification>
+
+* React Redux
+
+    中文 <http://cn.redux.js.org/> 
+    
+    英文 <http://redux.js.org/>
+
+    You Might Not Need Redux <https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367>
+
+    
