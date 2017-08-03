@@ -30,3 +30,7 @@ Awesome Redux <https://github.com/xgrommx/awesome-redux>
 
  reselect <https://github.com/reactjs/reselect>
 
+ ## State 范式化
+
+ Normalizr库 <https://github.com/paularmstrong/normalizr>
+
