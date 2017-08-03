@@ -4,6 +4,7 @@
 * [常用开发站点](dev-helper.md)
 * React
     * [资料收集](React/index.md)
+    * [Redux实践](React/learning.md)
 * Serenity
     * [Grid常用方法](Serenity/Grid.md)
     * [自定义下拉选项数据(LookupScript)](Serenity/LookupScript.md)
