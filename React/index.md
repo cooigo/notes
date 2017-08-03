@@ -18,19 +18,19 @@ Awesome Redux <https://github.com/xgrommx/awesome-redux>
 
 ## Redux 中间件
 
- react-redux <https://github.com/reactjs/react-redux>
+react-redux <https://github.com/reactjs/react-redux>
 
- redux-actions <https://github.com/acdlite/redux-actions>
+redux-actions <https://github.com/acdlite/redux-actions>
 
- redux-thunk <https://github.com/gaearon/redux-thunk>
+redux-thunk <https://github.com/gaearon/redux-thunk>
 
- redux-saga <https://github.com/redux-saga/redux-saga>
+redux-saga <https://github.com/redux-saga/redux-saga>
 
- * redux-saga 实践总结 <https://zhuanlan.zhihu.com/p/23012870>
+redux-saga 实践总结 <https://zhuanlan.zhihu.com/p/23012870>
 
- reselect <https://github.com/reactjs/reselect>
+reselect <https://github.com/reactjs/reselect>
 
- ## State 范式化
+## State 范式化
 
- Normalizr库 <https://github.com/paularmstrong/normalizr>
+Normalizr库 <https://github.com/paularmstrong/normalizr>
 
