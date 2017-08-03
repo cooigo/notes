@@ -1,5 +1,7 @@
 # Redux 参数传入组件使用方法
 
+[issues](https://github.com/DefinitelyTyped/DefinitelyTyped/issues/6237)
+
 I think the generic type parameter you've given is not correct. Depending on how you want to pass progress prop to the Component, connect type signature will differ.
 
 ## Case 1. You want to directly pass progress value to the component, not relying on react-redux
