@@ -34,3 +34,14 @@ reselect <https://github.com/reactjs/reselect>
 
 Normalizr库 <https://github.com/paularmstrong/normalizr>
 
+## Relay
+
+<https://facebook.github.io/relay/>
+
+## Mobx
+
+<https://github.com/mobxjs/mobx>
+
+10分钟入门 <https://mobx.js.org/getting-started.html>
+
+中文 <http://cn.mobx.js.org/>
