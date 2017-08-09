@@ -2,6 +2,8 @@
 
 * [目录](README.md)
 * [常用开发站点](dev-helper.md)
+* 设计
+    * [资料收集](design/index.md)
 * React
     * [资料收集](React/index.md)
     * [Redux实践](React/learning.md)
