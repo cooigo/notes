@@ -76,4 +76,6 @@
 
     <https://www.addtoany.com/> 
 
-    
+* 资源异步加载
+
+    <https://github.com/ApoorvSaxena/lozad.js>    
