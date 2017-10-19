@@ -81,9 +81,6 @@
         }
 
         })();
-
-
-
         ```
         
 
@@ -125,8 +122,5 @@
             const promiseChain = loadfun();
             event.waitUntil(promiseChain);
         });
-
-        
-
 
         ```
