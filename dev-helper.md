@@ -78,4 +78,10 @@
 
 * 资源异步加载
 
-    <https://github.com/ApoorvSaxena/lozad.js>    
+    <https://github.com/ApoorvSaxena/lozad.js>
+    
+* 系统下载
+    
+    原版资源下载地址1：<http://msdn.itellyou.cn/>
+    
+    原版资源下载地址2：<http://msdn.ez58.net/>
