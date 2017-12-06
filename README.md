@@ -24,3 +24,7 @@
     * [阅读](Yuedu/index.md)
 * Javascript
     * [消息通知](Javascript/chrome-web-push.md)
+* Java
+    * [Java 开发](java/index.md)
+* MySQL
+    * [MySql 安装](mysql/index.md)
