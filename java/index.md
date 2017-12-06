@@ -57,3 +57,5 @@
 ### devtools
 
 - <https://docs.spring.io/spring-boot/docs/1.5.9.RELEASE/reference/htmlsingle/#using-boot-devtools>
+
+- 热更新 <http://tengj.top/2017/06/01/springboot10/>
