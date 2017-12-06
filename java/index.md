@@ -34,7 +34,7 @@
 - <https://spring.io/guides/gs/securing-web/>
 - <https://docs.spring.io/spring-boot/docs/1.5.9.RELEASE/reference/htmlsingle/#boot-features-security>
 
--<https://docs.spring.io/spring-security/site/docs/4.2.3.RELEASE/reference/htmlsingle/#jc-method>
+- <https://docs.spring.io/spring-security/site/docs/4.2.3.RELEASE/reference/htmlsingle/#jc-method>
 
 ### jpa 
 
