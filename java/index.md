@@ -1,8 +1,25 @@
 # Thymeleaf 教程
 
 - 文档 <http://www.thymeleaf.org/documentation.html>
+
 - 布局 <http://www.thymeleaf.org/doc/articles/layouts.html>
+
 - 语法 <http://www.thymeleaf.org/doc/articles/standarddialect5minutes.html>
+
+```html
+
+<!DOCTYPE html>
+<html lang="en" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+
+```
 
 # Spring Boot 教程
 
@@ -29,16 +46,30 @@
 
 - <https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#mvc-controller>
 
+- <https://medium.com/@gustavo.ponce.ch/spring-boot-spring-mvc-spring-security-mysql-a5d8545d837d>
+
+- 属性配置 <https://docs.spring.io/spring-boot/docs/1.5.9.RELEASE/reference/htmlsingle/#boot-features-external-config-typesafe-configuration-properties>
+
+- vaadin 自定义样式 <https://www.sothawo.com/2015/06/custom-theme-for-a-vaadin-spring-boot-application/>
+
 ### security
 
 - <https://spring.io/guides/gs/securing-web/>
+
 - <https://docs.spring.io/spring-boot/docs/1.5.9.RELEASE/reference/htmlsingle/#boot-features-security>
 
 - <https://docs.spring.io/spring-security/site/docs/4.2.3.RELEASE/reference/htmlsingle/#jc-method>
 
+- <http://blog.csdn.net/bestcxx/article/details/78048385>
+
+
 ### jpa 
 
 - <https://docs.spring.io/spring-data/jpa/docs/2.0.2.RELEASE/reference/html/>
+
+- 自定义实现 <https://docs.spring.io/spring-data/jpa/docs/2.0.2.RELEASE/reference/html/#repositories.custom-implementations>
+
+- 参数查询 <https://docs.spring.io/spring-data/jpa/docs/2.0.2.RELEASE/reference/html/#jpa.named-parameters>
 
 ### mysql
 
@@ -50,6 +81,8 @@
 
 - <http://www.thymeleaf.org/doc/tutorials/3.0/thymeleafspring.html>
 
+- <https://ultraq.github.io/thymeleaf-layout-dialect/Examples.html>
+
 ### autuator
 
 - <https://spring.io/guides/gs/actuator-service/>
@@ -59,3 +92,7 @@
 - <https://docs.spring.io/spring-boot/docs/1.5.9.RELEASE/reference/htmlsingle/#using-boot-devtools>
 
 - 热更新 <http://tengj.top/2017/06/01/springboot10/>
+
+## 其他参考资料
+
+- <https://www.callicoder.com/spring-boot-rest-api-tutorial-with-mysql-jpa-hibernate/>
