@@ -42,6 +42,8 @@
 
 ### web 参考资料
 
+- UI <<https://github.com/puikinsh/gentelella>>
+
 - <https://spring.io/guides/gs/serving-web-content/>
 
 - <https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#mvc-controller>
