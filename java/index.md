@@ -58,11 +58,7 @@
 
 ### web 参考资料
 
-<<<<<<< HEAD
 - <http://www.baeldung.com/>
-=======
-- UI <<https://github.com/puikinsh/gentelella>>
->>>>>>> d85e3f1f2ffadd7771800942c7a73d31f8d2e6b3
 
 - <https://spring.io/guides/gs/serving-web-content/>
 
@@ -223,7 +219,6 @@ No-Operation: _
 
 - <https://www.callicoder.com/spring-boot-rest-api-tutorial-with-mysql-jpa-hibernate/>
 
-<<<<<<< HEAD
 ## vaadin
 
 - <https://demo.vaadin.com/sampler/>
@@ -252,5 +247,3 @@ No-Operation: _
 - <https://vaadin.com/api/>
 
 - <https://vaadin.com/docs/v8/framework/introduction/intro-overview.html>
-=======
->>>>>>> d85e3f1f2ffadd7771800942c7a73d31f8d2e6b3
