@@ -1,3 +1,15 @@
+# 常用工具类
+
+- <http://commons.apache.org/>
+
+- <https://commons.apache.org/proper/commons-lang/dependency-info.html>
+
+- <https://commons.apache.org/proper/commons-beanutils/dependency-info.html>
+
+- <https://github.com/google/guava> <http://ifeve.com/google-guava/>
+
+- <https://www.malot.fr/bootstrap-datetimepicker/>
+
 # Thymeleaf 教程
 
 - 文档 <http://www.thymeleaf.org/documentation.html>
@@ -29,6 +41,10 @@
 
 - 第三方教程 <https://www.zhihu.com/question/53729800>
 
+- <http://www.vxzsk.com/251.html>
+
+- Spring boot 中使用Shiro <https://www.jianshu.com/p/0f2049a3983b>
+
 
 # WEB 建站资料
 
@@ -42,6 +58,8 @@
 
 ### web 参考资料
 
+- <http://www.baeldung.com/>
+
 - <https://spring.io/guides/gs/serving-web-content/>
 
 - <https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#mvc-controller>
@@ -51,6 +69,10 @@
 - 属性配置 <https://docs.spring.io/spring-boot/docs/1.5.9.RELEASE/reference/htmlsingle/#boot-features-external-config-typesafe-configuration-properties>
 
 - vaadin 自定义样式 <https://www.sothawo.com/2015/06/custom-theme-for-a-vaadin-spring-boot-application/>
+
+- json输出 <https://diamondfsd.com/article/ae89cf4e-f679-4cc0-9882-f02e0240866e>
+
+- <https://github.com/ityouknow/spring-boot-examples>
 
 ### security
 
@@ -62,6 +84,29 @@
 
 - <http://blog.csdn.net/bestcxx/article/details/78048385>
 
+- 用户密码加密 <http://www.jianshu.com/p/a3f85f350a33>
+
+- springboot整合shiro-登录认证和权限管理 <http://www.ityouknow.com/springboot/2017/06/26/springboot-shiro.html>
+
+- shiro <http://jinnianshilongnian.iteye.com/blog/2018398> <https://github.com/apache/shiro> <https://shiro.apache.org/spring-boot.html>
+
+- <http://412887952-qq-com.iteye.com/blog/2299777>
+
+- Spring MVC防止数据重复提交 <http://blog.icoolxue.com/submitted-by-spring-mvc-to-prevent-data-duplication/>
+
+- <https://qtdebug.com/spring-web-form-resubmit/>
+
+
+### 统一异常处理
+
+- <https://www.jianshu.com/p/3998ea8b53a8>
+
+- <http://blog.didispace.com/springbootexception/>
+
+- <http://blog.csdn.net/songjinbin/article/details/14003533>
+
+- SpringBoot基础教程 <https://www.jianshu.com/p/964370d9374e>
+
 
 ### jpa 
 
@@ -70,6 +115,9 @@
 - 自定义实现 <https://docs.spring.io/spring-data/jpa/docs/2.0.2.RELEASE/reference/html/#repositories.custom-implementations>
 
 - 参数查询 <https://docs.spring.io/spring-data/jpa/docs/2.0.2.RELEASE/reference/html/#jpa.named-parameters>
+
+- 审计 <http://juhahinkula.github.io/2017-04-10-jpaauditing/>
+
 
 ### mysql
 
@@ -82,6 +130,80 @@
 - <http://www.thymeleaf.org/doc/tutorials/3.0/thymeleafspring.html>
 
 - <https://ultraq.github.io/thymeleaf-layout-dialect/Examples.html>
+
+- 安全 <https://memorynotfound.com/spring-boot-spring-security-thymeleaf-form-login-example/>
+
+- <https://github.com/theborakompanioni/thymeleaf-extras-shiro>
+
+```
+//pom.xml
+
+<properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <java.version>1.8</java.version>
+    <thymeleaf.version>3.0.9.RELEASE</thymeleaf.version>
+    <thymeleaf-layout-dialect.version>2.2.2</thymeleaf-layout-dialect.version>
+    <thymeleaf-extras-springsecurity4.version>3.0.2.RELEASE</thymeleaf-extras-springsecurity4.version>
+</properties>
+<dependencies>
+    <dependency>
+        <groupId>org.thymeleaf.extras</groupId>
+        <artifactId>thymeleaf-extras-springsecurity4</artifactId>
+    </dependency>
+</dependencies>
+
+//html
+<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+
+```
+
+```
+4 Standard Expression Syntax
+
+Simple expressions:
+Variable Expressions: ${...}
+Selection Variable Expressions: *{...}
+Message Expressions: #{...}
+Link URL Expressions: @{...}
+Fragment Expressions: ~{...}
+
+Literals
+Text literals: 'one text', 'Another one!',…
+Number literals: 0, 34, 3.0, 12.3,…
+Boolean literals: true, false
+Null literal: null
+Literal tokens: one, sometext, main,…
+
+Text operations:
+String concatenation: +
+Literal substitutions: |The name is ${name}|
+
+Arithmetic operations:
+Binary operators: +, -, *, /, %
+Minus sign (unary operator): -
+
+Boolean operations:
+Binary operators: and, or
+Boolean negation (unary operator): !, not
+
+Comparisons and equality:
+Comparators: >, <, >=, <= (gt, lt, ge, le)
+Equality operators: ==, != (eq, ne)
+
+Conditional operators:
+If-then: (if) ? (then)
+If-then-else: (if) ? (then) : (else)
+Default: (value) ?: (defaultvalue)
+Special tokens:
+
+No-Operation: _
+
+```
+
+
 
 ### autuator
 
@@ -96,3 +218,32 @@
 ## 其他参考资料
 
 - <https://www.callicoder.com/spring-boot-rest-api-tutorial-with-mysql-jpa-hibernate/>
+
+## vaadin
+
+- <https://demo.vaadin.com/sampler/>
+
+- <http://vaadin.github.io/spring-tutorial/>
+
+- <https://vaadin.com/api/vaadin-spring/>
+
+- <https://spring.io/guides/gs/crud-with-vaadin/>
+
+- 数据分页 <https://github.com/Artur-/spring-data-provider>
+
+- 数据过滤 <https://vaadin.com/docs/v8/framework/datamodel/datamodel-providers.html>
+
+- icon <https://vaadin.com/elements/vaadin-icons/html-examples/icons-basic-demos>
+
+- 样式 <https://github.com/vaadin/valo-demo>
+
+- 主题doc <https://vaadin.com/docs/v8/framework/themes/themes-valo.html>
+
+
+- <https://bakery.demo.vaadin.com/#!user-admin>
+
+- <https://demo.vaadin.com>
+
+- <https://vaadin.com/api/>
+
+- <https://vaadin.com/docs/v8/framework/introduction/intro-overview.html>
