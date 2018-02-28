@@ -10,6 +10,8 @@
 
 - <https://www.malot.fr/bootstrap-datetimepicker/>
 
+- <https://www.jianshu.com/p/d43d9acf949f> 在idea中我们可以设置如下操作，自动生成serialVersionUID, File->Setting->Editor->Inspections->Serialization issues->Serializable class without ’serialVersionUID’ ->勾选操作
+
 # Thymeleaf 教程
 
 - 文档 <http://www.thymeleaf.org/documentation.html>
