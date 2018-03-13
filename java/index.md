@@ -47,6 +47,8 @@
 
 - Spring boot 中使用Shiro <https://www.jianshu.com/p/0f2049a3983b>
 
+- Spring boot 配置 <http://blog.didispace.com/springbootproperties/>
+
 
 # WEB 建站资料
 
