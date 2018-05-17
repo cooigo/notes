@@ -57,3 +57,10 @@ vi /etc/sysconfig/iptables # 加上下面这行规则也是可以的
 
     `service mysqld stop`
 
+# 查询表的外键关联
+
+```sql
+
+select * from INFORMATION_SCHEMA.KEY_COLUMN_USAGE  where REFERENCED_TABLE_NAME='表名' and REFERENCED_TABLE_SCHEMA='数据库'
+
+```
