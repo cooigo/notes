@@ -1,10 +1,16 @@
 # 以太坊开发
 
-## 测试币申请 <https://steemit.com/ethereum/@ericfish/3qraaz> <http://faucet.ropsten.be:3001/>
+## 测试币申请
 
-## <https://web3j.io/>
+<https://steemit.com/ethereum/@ericfish/3qraaz>
+
+<http://faucet.ropsten.be:3001/>
 
 ## 使用 web3j 构建以太坊钱包
+
+- web3j 官网
+
+  <https://web3j.io/>
 
 - 以太币转账
 
