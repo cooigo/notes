@@ -36,6 +36,8 @@
 
 # 常用工具类
 
+* http 命令行工具 <https://httpie.org/>
+
 * <http://commons.apache.org/>
 
 * <https://commons.apache.org/proper/commons-lang/dependency-info.html>
@@ -82,6 +84,8 @@
 * Spring boot 中使用 Shiro <https://www.jianshu.com/p/0f2049a3983b>
 
 * Spring boot 配置 <http://blog.didispace.com/springbootproperties/>
+
+* Spring Boot 中使用 AOP 统一处理 Web 请求日志 <http://blog.didispace.com/springbootaoplog/>
 
 # WEB 建站资料
 

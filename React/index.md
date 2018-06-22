@@ -1,4 +1,8 @@
+# React 资料
+
 ## React 文档
+
+react typescript 教程 <https://github.com/sw-yx/react-typescript-cheatsheet> <https://github.com/piotrwitek/react-redux-typescript-guide>
 
 <https://facebook.github.io/react/>
 
@@ -32,7 +36,7 @@ reselect <https://github.com/reactjs/reselect>
 
 ## State 范式化
 
-Normalizr库 <https://github.com/paularmstrong/normalizr>
+Normalizr 库 <https://github.com/paularmstrong/normalizr>
 
 ## Relay
 
@@ -42,7 +46,7 @@ Normalizr库 <https://github.com/paularmstrong/normalizr>
 
 <https://github.com/mobxjs/mobx>
 
-10分钟入门 <https://mobx.js.org/getting-started.html>
+10 分钟入门 <https://mobx.js.org/getting-started.html>
 
 中文 <http://cn.mobx.js.org/>
 
