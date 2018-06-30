@@ -40,6 +40,8 @@
 
   <https://learnblockchain.cn/2018/01/12/first-dapp/>
 
+- 智能合约创建工具 <https://truffleframework.com/docs> <https://www.jianshu.com/p/683ea7d62a39>
+
 ## 申请免费测试节点
 
 <https://infura.io/setup?key=qQ7KN5WY1fryIXkIuJxv>
@@ -55,3 +57,21 @@
 ## ETH Gas 查询
 
 <https://ethgasstation.info/index.php>
+
+## web.js 发币
+
+- web3.js api 文档 <https://github.com/ethereum/wiki/wiki/JavaScript-API>
+
+- <https://github.com/MikeMcl/bignumber.js/>
+
+- web3.js 编译 Solidity，发布，调用全部流程（手把手教程）<http://web3.tryblockchain.org/web3-js-in-action.html>
+
+- ERC-20 标准
+
+  <https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md>
+
+  中文 <https://blog.csdn.net/diandianxiyu_geek/article/details/78082551>
+
+- 教你分分钟实现 imtoken 添加即空投代币 <http://blog.2liang.me/2018/02/25/erc-20-add-wallet-airdrop-md/>
+
+- 如何使用 web3 部署以太坊智能合约 <https://segmentfault.com/a/1190000013841167>
