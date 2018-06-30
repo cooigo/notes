@@ -76,7 +76,9 @@
 
 - 如何使用 web3 部署以太坊智能合约 <https://segmentfault.com/a/1190000013841167>
 
-- angular6 问题  `Can't resolve 'crypto'`
+- angular6 问题  `Can't resolve 'crypto'` 
+
+  > <https://gist.github.com/niespodd/1fa82da6f8c901d1c33d2fcbb762947d>
 
   package.json
 
