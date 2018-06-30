@@ -75,3 +75,35 @@
 - 教你分分钟实现 imtoken 添加即空投代币 <http://blog.2liang.me/2018/02/25/erc-20-add-wallet-airdrop-md/>
 
 - 如何使用 web3 部署以太坊智能合约 <https://segmentfault.com/a/1190000013841167>
+
+- angular6 问题  `Can't resolve 'crypto'`
+
+  package.json
+
+  ```json 
+  {
+    "scripts": {
+      "postinstall": "node patch.js",
+      
+    }
+  }
+  ```
+
+  patch.js
+
+  ```javascript 
+  const fs = require('fs');
+  const f = 'node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/webpack-configs/browser.js';
+
+  fs.readFile(f, 'utf8', function (err,data) {
+    if (err) {
+      return console.log(err);
+    }
+    var result = data.replace(/node: false/g, 'node: {crypto: true, stream: true}');
+
+    fs.writeFile(f, result, 'utf8', function (err) {
+      if (err) return console.log(err);
+    });
+  });
+
+  ```
