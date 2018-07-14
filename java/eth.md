@@ -76,36 +76,46 @@
 
 - 如何使用 web3 部署以太坊智能合约 <https://segmentfault.com/a/1190000013841167>
 
-- angular6 问题  `Can't resolve 'crypto'` 
+- angular6 问题 `Can't resolve 'crypto'`
 
   > <https://gist.github.com/niespodd/1fa82da6f8c901d1c33d2fcbb762947d>
 
   package.json
 
-  ```json 
+  ```json
   {
     "scripts": {
-      "postinstall": "node patch.js",
-      
+      "postinstall": "node patch.js"
     }
   }
   ```
 
   patch.js
 
-  ```javascript 
+  ```javascript
   const fs = require('fs');
-  const f = 'node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/webpack-configs/browser.js';
+  const f =
+    'node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/webpack-configs/browser.js';
 
-  fs.readFile(f, 'utf8', function (err,data) {
+  fs.readFile(f, 'utf8', function(err, data) {
     if (err) {
       return console.log(err);
     }
-    var result = data.replace(/node: false/g, 'node: {crypto: true, stream: true}');
+    var result = data.replace(
+      /node: false/g,
+      'node: {crypto: true, stream: true}'
+    );
 
-    fs.writeFile(f, result, 'utf8', function (err) {
+    fs.writeFile(f, result, 'utf8', function(err) {
       if (err) return console.log(err);
     });
   });
-
   ```
+
+## 合约验证
+
+- How to verify smart contract on Etherscan? <https://michalzalecki.com/how-to-verify-smart-contract-on-etherscan/>
+
+## 合约开发工具
+
+- <https://truffleframework.com> <http://remix.ethereum.org/>
