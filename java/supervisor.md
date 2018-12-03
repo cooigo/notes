@@ -18,3 +18,14 @@ start/stop/restart xxx 启动/停止/重启 xxx 进程
 /data/wwwroot/wallet.putaotec.com
 supervisorctl
 restart xxxxxxx
+
+```
+status    # 查看程序状态
+stop update_ip   # 关闭 update_ip 程序
+start update_ip  # 启动 update_ip 程序
+restart update_ip    # 重启 update_ip 程序
+reread    ＃ 读取有更新（增加）的配置文件，不会启动新添加的程序
+update    ＃ 重启配置文件修改过的程序
+
+链接：https://www.jianshu.com/p/bf2b3f4dec73
+```
